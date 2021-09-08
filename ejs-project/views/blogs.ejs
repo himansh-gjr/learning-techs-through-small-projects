@@ -1,0 +1,10 @@
+<h1>All blogs here</h1>
+<ul>
+    <% blogs.forEach(function(blog) { %>
+        <li>
+        <strong><%= blog.id %></strong>
+        <%= blog.title %>,
+        <%= blog.data %>
+        </li>
+    <% }); %>
+    </ul>
